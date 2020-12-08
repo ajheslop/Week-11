@@ -3,5 +3,5 @@ bin/
 include/
 lib/
 flaskenv/
-MainSite/
-.MainSite
+.VirtualENV
+VirtualENV
