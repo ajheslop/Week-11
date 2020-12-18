@@ -1,4 +1,7 @@
-{% extends 'polls/base.html' %} {% block main_content %} {{ question.question_text }}
+{% extends 'polls/base.html' %} {% block main_content %}
+
+<title> Detail Page:</title>
+ {{ question.question_text }}
 <p></p> {{ question }} {% if error_message %}
 <p> <strong> {{ error_message }}</strong></p>{% endif %}
 
